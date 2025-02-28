@@ -59,3 +59,7 @@ buildNumber.properties
 *.env
 logs/
 /data/
+
+prometheus/prometheus_data/**
+grafana/**
+!grafana/dash-forum-api.json
